@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body,
+button {
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    height: 100%;
+    background: white;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* FIRST NAVBAR CSS START */
+
+.navbar-one {
+    height: 250px;
+    position: sticky;
+    top: 0;
+}
+
+.ithpllogo img {
+    height: 35px;
+
+}
+
+nav {
+    padding: 0 45px;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-one {
+    background-color: white;
+    height: 40px;
+    cursor: pointer;
+}
+
+.left>div {
+    margin-left: 30px;
+}
+
+.right>div {
+    margin-left: 30px;
+}
+
+.left a {
+    font-size: 15px;
+    color: rgb(12, 34, 54);
+    text-decoration: none;
+}
+
+.right a {
+    font-size: 15px;
+    color: rgb(12, 34, 54);
+    text-decoration: none;
+}
+
+/* FIRST NAVBAR CSS END */
+
+/* SLIDE IMG CSS START */
+.d-block {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position-x: 100%;
+
+}
+
+.d-block {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position-x: 100%;
+}
+
+
+/* SLIDE IMG CSS END */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navcontener{
+    display: flex;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    height: 0px;
+    top: 0px;
+}
+
+.menu-bar {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background-position: center;
+    position: sticky;
+}
+
+.menu-bar ul {
+    padding-left: 100px;
+    display: inline-flex;
+    list-style: none;
+    padding-top: 10px;
+     /* margin-bottom: 20px;
+    padding-bottom: 50px;  */
+}
+
+.menu-bar .logo img {
+    font-size: 10px;
+    padding-top: 0px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-left: 0%;
+    margin-left: 0%;
+    padding-left: 0px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    /* padding-bottom: 10px; */
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background: rgb(250, 252, 255);
+    border-radius: 5px;
+   
+}
+
+.menu-bar .fa {
+    margin-right: 8px;
+}
+
+.sub-menu1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu1 {
+    display: block;
+    background: rgb(149, 188, 243);
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.sub-menu1 ul {
+    padding: 0%;
+    padding-left: 0%;
+}
+
+.sub-menu1 ul li a {
+    font-size: 12px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li {
+    width: 250px;
+    padding: 5px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0%;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li a:hover {
+    color: aliceblue;
+}
+
+.fa-angle-right {
+    float: right;
+}
+
+.sub-menu2 {
+    display: none;
+}
+
+.hour-me:hover .sub-menu2 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 150px;
+    background: rgb(149, 188, 243);
+}
+
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+:root {
+    --blue: blue;
+    --light: white;
+
+}
+
+section {
+    padding: 70px;
+}
+
+.sectionTitle {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding-left: 100px;
+}
+
+p {
+    font-size: 20px;
+    padding-left: 100px;
+
+}
+
+.aboutus .container a {
+    background-color: var(--blue);
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 18px;
+    color: aliceblue;
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.aboutus .container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.aboutus .imgContainer {
+    height: 700px;
+    background-image: url(images/five.jpg);
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+.aboutus .content {
+    padding-right: 50px;
+}
+
+/* WELCOME PAGE CSS END */
+
+
+
+/* OUR EXPLORE CSS START */
+.container ul li a:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: none;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.item::after {
+    display: inline-block;
+}
+
+.item img {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    height: 500px;
+    padding-bottom: 120px;
+}
+
+/*  OUR EXPLORE CSS END  */
+
+
+
+
+/* OUR BUSINESS CSS START */
+.AssociatesTitle {
+    padding-top: 50px;
+}
+
+.AssociatesTitle h1 {
+    padding-top: 50px;
+}
+
+.Associates img {
+    height: 200px;
+    width: 250px;
+    margin-top: 5px;
+    margin-left: 10px;
+    box-shadow: 10px 20px 17px;
+    padding-left: 0px;
+    display: inline-block;
+}
+
+section .Associates a {
+    height: 5px;
+}
+
+section .corner a {
+    margin-top: 100px;
+    padding-left: 600px;
+    background-color: var(--blue);
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 18px;
+    color: aliceblue;
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* OUR BUSINESS CSS END */
+
+
+
+
+/* CONTACT CSS START */
+.contact .box {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    gap: 32px;
+    text-align: center;
+}
+
+.contact .box i {
+    font-size: 55px;
+    color: black;
+}
+
+.contact .box div {
+    font-size: 32px;
+    color: black;
+    margin: 16px 0;
+}
+
+.contact .row {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 130px 0;
+}
+
+.contact .row .form-c input,
+textarea {
+    background-attachment: var(--blue);
+    border: 4px solid rgba(160, 160, 160, );
+    padding: 0px;
+    height: 30px;
+    width: 100%;
+    margin: 10px 0;
+    color: var(--blue);
+    font-size: 18px;
+}
+
+.contact .row .form-c input[type="submit"] {
+    background: var(--blue);
+    cursor: pointer;
+    margin-bottom: 32px;
+    color: white;
+    border: 3px solid var(--blue);
+}
+
+.contact .row .form-c input[type="submit"]:hover {
+    background: none;
+    color: var(--blue);
+}
+
+.contact .row .form-c textarea {
+    height: 240px;
+    padding: 16px;
+}
+
+.contact .row .form-c {
+    width: 550px;
+}
+
+.contact .row .ifram {
+    margin-top: 23px;
+    margin-right: 100px;
+}
+
+
+/* CONTACT CSS END */
+
+
+
+
+/* LAST NAVBAR CSS START */
+footer {
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 33.33%));
+    gap: 32px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 60px;
+    height: 450px;
+    position: sticky;
+    top: 0;
+}
+
+footer h3 {
+    font-size: 30px;
+    margin: 12px 0;
+    color: white;
+}
+
+footer p {
+
+    font-size: 15px;
+    margin: 16px 0px;
+    color: white;
+}
+
+footer i {
+
+    font-size: 70px;
+    margin: 16px 8px;
+    color: white;
+
+}
+
+footer i:hover,
+footer a:hover {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0px;
+    padding-left: 3%;
+    color: white;
+}
+/* LAST NAVBAR CSS END */

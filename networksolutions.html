@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>security </title>
+    <style>
+        .navbar-firs {
+            height: 00px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
+            padding: 0 45px;
+            width: 100%;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-first {
+            background-color: rgb(243, 246, 243);
+            height: 100px;
+            cursor: pointer;
+        }
+
+        .end a {
+
+            font-size: 30px;
+            padding-left: 150px;
+            padding-right: 0px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .menu-bar img {
+            font-size: 20px;
+        }
+
+        * {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+
+        nav {
+            position: sticky;
+            height: 100px;
+            top: 0px;
+        }
+
+        .menu-bar {
+            background: rgb(255, 255, 255);
+            background-position: center;
+            position: sticky;
+        }
+
+        .menu-bar ul {
+            padding-left: 100px;
+            display: inline-flex;
+            list-style: none;
+            padding-top: 10px;
+            /* margin-bottom: 20px;
+padding-bottom: 50px;  */
+        }
+
+        .menu-bar .logo img {
+            font-size: 10px;
+            padding-top: 0px;
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            padding-left: 0%;
+            margin-left: 0%;
+            padding-left: 0px;
+        }
+
+        .menu-bar ul li a {
+            text-decoration: none;
+            text-align: center;
+            font-size: 17px;
+            color: black;
+            /* padding-bottom: 10px; */
+            padding-left: 40px;
+            padding-right: 30px;
+        }
+
+        .active,
+        .menu-bar ul li:hover {
+            background: rgb(250, 252, 255);
+            border-radius: 5px;
+
+        }
+
+        .menu-bar .fa {
+            margin-right: 8px;
+        }
+
+        .sub-menu1 {
+            display: none;
+        }
+
+        .menu-bar ul li:hover .sub-menu1 {
+            display: block;
+            background: rgb(149, 188, 243);
+            position: absolute;
+            margin-top: 15px;
+            margin-left: -15px;
+        }
+
+        .menu-bar ul li:hover .sub-menu1 ul {
+            display: block;
+            margin: 10px;
+        }
+
+        .sub-menu1 ul {
+            padding: 0%;
+            padding-left: 0%;
+        }
+
+        .sub-menu1 ul li a {
+            font-size: 12px;
+        }
+
+        .menu-bar ul li:hover .sub-menu1 ul li {
+            width: 250px;
+            padding: 5px;
+            border-bottom: 1px dotted white;
+            background: transparent;
+            border-radius: 0%;
+            text-align: left;
+        }
+
+        .menu-bar ul li:hover .sub-menu1 ul li:last-child {
+            border-bottom: none;
+        }
+
+        .menu-bar ul li:hover .sub-menu1 ul li a:hover {
+            color: aliceblue;
+        }
+
+        .fa-angle-right {
+            float: right;
+        }
+
+        .sub-menu2 {
+            display: none;
+        }
+
+        .hour-me:hover .sub-menu2 {
+            position: absolute;
+            display: block;
+            margin-top: -40px;
+            margin-left: 150px;
+            background: rgb(149, 188, 243);
+        }
+        
+        footer {
+            background: black;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(20%, 33.33%));
+            gap: 32px;
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+            padding: 60px;
+            height: 400px;
+            position: sticky;
+            top: 0;
+        }
+
+        footer h3 {
+            font-size: 30px;
+            margin: 12px 0;
+            color: white;
+        }
+
+        footer p {
+
+            font-size: 15px;
+            margin: 16px 0px;
+            color: white;
+        }
+
+        footer i {
+
+            font-size: 70px;
+            margin: 16px 8px;
+            color: white;
+
+        }
+
+        footer i:hover,
+        footer a:hover {
+            color: white;
+        }
+
+        footer a {
+            text-decoration: none;
+            font-size: 12px;
+            margin: 0px;
+            padding-left: 3%;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="menu-bar">
+
+            <ul>
+                <div style="padding-left: 0%;" class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+
+                <li style="padding-top: 20px;" class="active"><a href="index.html"><i class="fa fa-home"></i>HOME</a>
+                </li>
+                <li style="padding-top: 20px;"><a href=""><i class="fa fa-user"></i>ABOUT US</a>
+                    <div class="sub-menu1">
+                        <ul>
+                            <li><a class="" href="aboutus.html">COMPANY OVERVIEW</a></li>
+                            <li><a class="" href="companyover.html">MISSION VISION & VALUES</a></li>
+                            <li><a class="" href="managment.html">MANAGEMENT TEAM</a></li>
+                            <li><a class="" href="awards.html">AWARDS & ACHIVEMENTS</a></li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li style="padding-top: 20px;"><a href=""><i class="fa fa-line-chart"></i>SALES</a>
+                    <div class="sub-menu1">
+                        <ul>
+                            <li><a class="" href="endproduct.html">END POINTS</a></li>
+                            <li><a class="" href="datacenter.html">DATA CENTER</a></li>
+                            <li><a class="" href="connectivity.html">CONNECTIVITY</a></li>
+                            <li><a class="" href="security.html">SECURITY</a></li>
+                            <li><a class="" href="teliphone.html">AUDIO & TELEPHONE</a></li>
+                            <li><a class="" href="handheld.html">HANDHELD</a></li>
+                            <li><a class="" href="printerscanner.html">PRINTING & SCANNING</a></li>
+                            <li><a class="" href="video.html">VIDEO CONFERENCING</a></li>
+                            <li><a class="" href="visual.html">VISUAL DISPLAY</a></li>
+                            <li><a class="" href="peripherals.html">PERIPHERALS</a></li>
+                            <li><a class="" href="license.html">LICENSE</a></li>
+                            <li><a class="" href="power.html">POWER</a></li>
+                            <li><a class="" href="securitysurvileance.html">SECURITY SURVILE</a></li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li style="padding-top: 20px;"><a href=""><i class="fa fa-clone"></i>SERVICES</a>
+                    <div class="sub-menu1">
+                        <ul>
+                            <li class="hour-me"><a href="#">MANAGED SERVICES</a><i class="fa fa-angle-right"></i>
+                                <div class="sub-menu2">
+                                    <ul>
+                                        <li><a href="endusercomputing.html">END USER COMPUTING</a></li>
+                                        <li><a href="datacentermanagement.html">DATA CENTER MANAGEMENT</a></li>
+                                        <li><a href="nocmanagement.html">NOC MANAGEMENT</a></li>
+                                        <li><a href="helpdeskmanagment.html">HELPDESK MANAGEMENT</a></li>
+                                        <li><a href="securitymanagement.html">SECURITY MANAGEMENT</a></li>
+                                        <li><a href="applicationmanagement.html">APPLICATION MANAGEMENT</a></li>
+                                        <li><a href="assetmanagement.html">ASSET MANAGEMENT</a></li>
+                                        <li><a href="buildingmanagementsystem.html">BUILDING MANAGEMENT SYSTEM</a></li>
+                                        <li><a href="procurementbilling.html">PROCUREMENT & BILLING</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a class="dropdown-item" href="amnbreak.html">AMN & BREAK FLX</a></li>
+                            <li><a class="dropdown-item" href="aaaaaaaaaaaa.html">E WASTE MANAGEMENT</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li style="padding-top: 20px;"><a href=""><i class="fa fa-lightbulb-o"></i>SOLUTIONS</a>
+                    <div class="sub-menu1">
+                        <ul>
+                            <li><a class="" href="serversolutions.html">SERVER SOLUTIONS</a></li>
+                            <li><a class="" href="networksolutions.html">NETWORK SOLUTIONS</a></li>
+                            <li><a class="" href="storagesolution.html">STORAGE SOLUTIONS</a></li>
+                            <li><a class="" href="couldsolution.html">CLOUD SOLUTIONS</a></li>
+                            <li><a class="" href="securitysolution.html">SECURITY SOLUTIONS</a></li>
+                            <li><a class="" href="applicationsolution.html">APPLICATION SOLUTIONS</a></li>
+                            <li><a class="" href="audiosolutio.html">AUDIO VIDEO SOLUTIONS</a></li>
+                            <li><a class="" href="videosolution.html">VIDEO SURVILEANCE & BIOMETRIC SOLUTIONS</a></li>
+                            <li><a class="" href="rental.html">RENTAL AND REFURBISHED</a></li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li style="padding-top: 20px;"><a href="#contact"><i class="fa fa-phone"></i>CONTACT</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <header class="navbar-first flex">
+        <div class="end flex">
+            <div style="padding-left: 0px;" class="all">
+                <a href=""> <i class=""></i>Network Solutions</a>
+            </div>
+
+
+        </header>
+    <br><br><br><br>
+    <table>
+        <tr style="padding-left: 0px;">
+            <td style="padding-left: 180px;">
+                <img style="padding-left: 0px;width: 200px; height: 150px;  box-shadow: 5px 5px 5px;" src="images/serversolution/sol5-2.jpg" alt="">
+            </td>
+            <td>
+                <img style="padding-left: 0px; width: 200px; height: 150px; box-shadow: 7px 10px 10px;" src="images/serversolution/sol5-5.jpg" alt="">
+            </td>
+            <td>
+                <img style="padding-left: 0px; width: 200px; height: 150px; box-shadow: 7px 10px 10px;" src="images/serversolution/sol5-6.jpg" alt="">
+            </td>
+            <td>
+                <img style="padding-left: 0px; width: 200px; height: 150px; box-shadow: 7px 10px 10px;" src="images/serversolution/sol5-7.jpg" alt="">
+            </td>
+            <td>
+                <h3 style="font-size: 25px; margin-top: 0%; padding-left: 30px;">Our Systematic Approach:</h3>
+                <ul style="padding-left: 50px;">
+                    <li>Solution Design</li>
+                    <li>Budgeting & Procurement</li>
+                    <li>Planning & Implementation</li>
+                    <li>Monitoring & Support</li>
+                </ul>
+            </td>
+        </tr>
+    </table><br>
+    <p style="padding-left: 190px;">With our wide partnership with various product OEM’s in industry we have been successfully <br> delivering solutions which has enabled our customers to keep their digital platforms up to the <br> mark in today’s competitive world.</p>
+    <br><br>
+    <footer>
+        <div class="content">
+            <h3>business</h3>
+            <p>In the face of fierce global competition, corporates are undergoing a radical change fostered by a
+                revolution
+                in Information Technology.</p>
+            <div class="shar">
+                <a href="https://www.linkedin.com/company/innovative-techhub-pvt-ltd/?originalSubdomain=in"><i
+                        class="fa fa-linkedin-square"></i></a>
+                <a href="https://www.facebook.com/ithpl/"><i class="fa fa-facebook-square"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-twitter-square"></i></a>
+            </div>
+        </div>
+        <div class="links">
+            <h3>links</h3>
+            <a href="#carouselExampleSlidesOnly">HOME</a>
+            <a href="aboutus.html">ABOUTUS</a>
+            <a href="all.html">SALES</a>
+            <a href="SERVICES">SERVICES</a>
+            <a href="SOLUTIONS">SOLUTIONS</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+        <div class="our-services">
+            <h3>our services</h3>
+            <a href="endusercomputing.html">END USER COMPUTING</a>
+            <a href="datacentermanagement.html">DATA CENTER MANAGEMENT</a>
+            <a href="nocmanagement.html">NOC MANAGEMENT</a>
+            <a href="helpdeskmanagment.html">HELPDESK MANAGEMENT</a>
+            <a href="securitymanagement.html">SECURITY MANAGEMENT</a>
+            <a href="applicationmanagement.html">APPLICATION MANAGEMENT</a>
+            <a href="assetmanagement.html">ASSET MANAGEMENT</a>
+            <a href="buildingmanagementsystem.html">BUILDING MANAGEMENT SYSTEM</a>
+            <a href="procurementbilling.html">PROCUREMENT & BILLING</a>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

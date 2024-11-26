@@ -1,0 +1,260 @@
+.imges img {
+    height: 400px;
+    width: 100%;
+}
+
+h1 {
+    padding-left: 300px;
+    font-weight: 500;
+}
+
+
+.navigation ul{
+    display: inline-flex;   
+}
+.navigation ul li{
+    list-style: none;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding: 7px 6px;
+    border-radius: 30px;
+    margin: 0px 10px;
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 17px;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background: rgb(99, 228, 185);
+    color: white;
+}
+
+.heros {
+    padding-top: 150px;
+}
+
+.heros p {
+    padding-left: 320px;
+    font-size: 20px;
+}
+
+.heros h1 {
+    font-size: 50px;
+}
+
+footer {
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 33.33%));
+    display: inline-block;
+    gap: 32px;
+    text-align: center;
+    padding: 60px;
+    height: 500px;
+    position: sticky;
+    top: 0;
+}
+
+footer h3 {
+    font-size: 50px;
+    margin: 20px 0;
+    color: white;
+}
+
+footer p {
+
+    font-size: 24px;
+    margin: 16px 0px;
+    color: white;
+}
+
+footer i {
+
+    font-size: 70px;
+    margin: 16px 8px;
+    color: white;
+
+}
+
+footer i:hover,
+footer a:hover {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+
+    font-size: 20px;
+    margin: 8px;
+    color: white;
+}
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    position: sticky;
+    height: 0px;
+    top: 0px;
+}
+
+.menu-bar {
+    background: rgb(255, 255, 255);
+    background-position: center;
+    position: sticky;
+}
+
+.menu-bar ul {
+    padding-left: 100px;
+    display: inline-flex;
+    list-style: none;
+    padding-top: 10px;
+    /* margin-bottom: 20px;
+padding-bottom: 50px;  */
+}
+
+.menu-bar .logo img {
+    font-size: 10px;
+    padding-top: 0px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-left: 0%;
+    margin-left: 0%;
+    padding-left: 0px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    /* padding-bottom: 10px; */
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background: rgb(250, 252, 255);
+    border-radius: 5px;
+
+}
+
+.menu-bar .fa {
+    margin-right: 8px;
+}
+
+.sub-menu1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu1 {
+    display: block;
+    background: rgb(149, 188, 243);
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.sub-menu1 ul {
+    padding: 0%;
+    padding-left: 0%;
+}
+
+.sub-menu1 ul li a {
+    font-size: 12px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li {
+    width: 250px;
+    padding: 5px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0%;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li a:hover {
+    color: aliceblue;
+}
+
+.fa-angle-right {
+    float: right;
+}
+
+.sub-menu2 {
+    display: none;
+}
+
+.hour-me:hover .sub-menu2 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 150px;
+    background: rgb(149, 188, 243);
+}
+footer {
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 33.33%));
+    gap: 32px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 60px;
+    height: 400px;
+    position: sticky;
+    top: 0;
+}
+
+footer h3 {
+    font-size: 30px;
+    margin: 12px 0;
+    color: white;
+}
+
+footer p {
+
+    font-size: 15px;
+    margin: 16px 0px;
+    color: white;
+}
+
+footer i {
+
+    font-size: 70px;
+    margin: 16px 8px;
+    color: white;
+
+}
+
+footer i:hover,
+footer a:hover {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0px;
+    padding-left: 3%;
+    color: white;
+}
